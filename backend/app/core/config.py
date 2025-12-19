@@ -62,7 +62,7 @@ class Settings(BaseSettings):
     GROQ_API_KEY: str = "YOUR_GROQ_API_KEY"
     LLM_MODEL: str = "openai/gpt-oss-120b"
     LLM_ENABLED: bool = False
-    LLM_PROXY: str = None
+    LLM_PROXY: str = ""
 
     @property
     def DATABASE_URL(self) -> str:
