@@ -1,5 +1,26 @@
 # IranGard
 
+**Collaborative trip-planning web app for travel in Iran.**
+Team project for the *System Analysis and Design* course, K. N. Toosi University of Technology (Fall 2025). Originally developed on the university's GitLab; full commit history is preserved here.
+
+**Stack:** FastAPI · SQLAlchemy · Alembic · PostgreSQL · Vite (vanilla JS) · Docker Compose · Nginx (HTTPS) · LLM integration (Groq)
+
+## Team
+| Member | Main contributions |
+|---|---|
+| **Ali Abbasi** ([@Abbasi8312](https://github.com/Abbasi8312)) | Backend lead (trips, trip plans, places, auth APIs; CRUD and schemas), LLM-based review summarization, Docker/Nginx deployment, branch integration |
+| Yasamin Riahi ([@YasaminRiahi](https://github.com/YasaminRiahi)) | |
+| Kimia Sadeghi ([@Kimiass](https://github.com/Kimiass)) | |
+| Mohammadreza Abedin ([@MrAbedam](https://github.com/MrAbedam)) | |
+
+## Running locally
+```bash
+cp .env.example .env   # fill in DB credentials and your own GROQ_API_KEY
+docker compose up --build
+```
+
+---
+
 **Project Description:**  
 IranGard is a comprehensive web application designed to help users plan their trips around Iran. The platform provides social, interactive, and organized trip planning features, allowing users to explore, share, and manage travel experiences efficiently.
 
