@@ -8,10 +8,10 @@ Team project for the *System Analysis and Design* course, K. N. Toosi University
 ## Team
 | Member | Main contributions |
 |---|---|
-| **Ali Abbasi** ([@Abbasi8312](https://github.com/Abbasi8312)) | Backend lead (trips, trip plans, places, auth APIs; CRUD and schemas), LLM-based review summarization, Docker/Nginx deployment, branch integration |
-| Yasamin Riahi ([@YasaminRiahi](https://github.com/YasaminRiahi)) | |
-| Kimia Sadeghi ([@Kimiass](https://github.com/Kimiass)) | |
-| Mohammadreza Abedin ([@MrAbedam](https://github.com/MrAbedam)) | |
+| **Ali Abbasi** ([@Abbasi8312](https://github.com/Abbasi8312)) | Project setup and architecture (backend skeleton, Alembic, auth, frontend API client); trip locations, trip plans and places APIs; places/reviews data; LLM-based review summarization; Docker Compose + Nginx deployment; branch integration and Git guidelines |
+| Mohammadreza Abedin ([@MrAbedam](https://github.com/MrAbedam)) | Backend: user profiles, friendships and friend requests, trips and expense tracking (models, schemas, endpoints); database migrations and seed data |
+| Yasamin Riahi ([@YasaminRiahi](https://github.com/YasaminRiahi)) | Frontend: My Trips and trip management pages (API integration, responsive layout), trip completion, interactive plan map with Google Maps navigation, city search; AI chat (Text-to-SQL, RAG, query router) |
+| Kimia Sadeghi ([@Kimiass](https://github.com/Kimiass)) | Frontend: home, category and place pages, login/sign-up and profile UI, bookmarks, review pages; responsive layout and API integration for places, categories and reviews |
 
 ## Running locally
 ```bash
